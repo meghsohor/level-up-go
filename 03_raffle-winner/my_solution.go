@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const path = "entries.json"
+const path = "./entries.json"
 
 // raffleEntry is the struct we unmarshal raffle entries into
 type raffleEntry struct {
